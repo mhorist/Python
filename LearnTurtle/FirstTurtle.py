@@ -1,21 +1,23 @@
 import turtle
 
 
-# turtle square
-
 x = turtle.Turtle()
 
+# makes a square
 def square():
-    x = turtle.Turtle()
-    x.forward(100)
-    x.right(90)
-    x.forward(100)
-    x.right(90)
-    x.forward(100)
-    x.right(90)
-    x.forward(100)
+  x.forward(100)
+  x.right(90)
+  x.forward(100)
+  x.right(90)
+  x.forward(100)
+  x.right(90)
+  x.forward(100)
 
+# makes a 4-square
 square()
-
-x.forward(200)
+x.forward(1)
+square()
+x.forward(1)
+square()
+x.forward(1)
 square()
